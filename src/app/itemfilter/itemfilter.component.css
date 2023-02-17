@@ -1,0 +1,263 @@
+.box {
+    border: 1px solid;
+    height: 50px;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-color: #dcdbdb;
+    border-width: 1px;
+    margin-top: 98px;
+}
+
+.icon {
+    padding-right: 7px;
+    font-size: 20px;
+}
+
+.icon .fa-solid.fa-grip-vertical {
+    color: red;
+    margin-right: 5px;
+}
+
+.icon2 {
+    font-size: 20px;
+}
+
+.box .boxcontent {
+    padding: 12px;
+    justify-items: center;
+    align-items: center;
+    float: left;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box .boxcontent span {
+    padding-left: 34px;
+    padding-right: 20px;
+}
+
+.box .boxcontent .view1 {
+    display: flex;
+    margin-left: 150px;
+}
+
+.view1 select {
+    width: 50px;
+}
+
+.box .boxcontent .sortby2 {
+    display: flex;
+}
+
+select {
+    border: 3px solid;
+    border-color: #F8F8FF;
+    border-width: 3px;
+}
+
+#view {
+    width: 50px;
+}
+
+@media only screen and (max-width:1204px) {
+
+    .box {
+        width: 1204px;
+    }
+}
+
+@media only screen and (max-width:1203px) {
+
+    .box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+
+    .box {
+        width: 100%;
+    }
+
+    .box .boxcontent {
+        padding: 13px;
+
+    }
+
+    .box .boxcontent span {
+        padding-left: 5px;
+    }
+
+    .box .boxcontent .view1 {
+        padding-left: 150px;
+    }
+
+    .box .boxcontent .sortby2 {
+
+        padding-left: 25px;
+    }
+
+}
+
+@media only screen and (max-width:1020px) {
+
+    .box .boxcontent .view1 {
+        padding-left: 20px;
+    }
+
+    .box .boxcontent span {
+        padding-left: 80px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    .box {
+        width: 692px;
+    }
+
+    .box .boxcontent {
+        padding: 14px;
+    }
+
+    .box .boxcontent span {
+        padding-left: 5px;
+        padding-right: 0px;
+
+    }
+
+    .box .boxcontent .view1 {
+        padding-left: 200px;
+    }
+
+    .box .boxcontent .sortby2 {
+        padding-left: 55px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .box {
+        width: 100%;
+    }
+
+    .box .boxcontent {
+        padding: 15px;
+    }
+
+    .box .boxcontent span {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+    .box .boxcontent .view1 {
+        padding-left: 20px;
+    }
+
+    .box .boxcontent .sortby2 {
+        padding-left: 5px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .box {
+        width: 600px;
+    }
+
+    .box .boxcontent span {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .box .boxcontent .view1 {
+        padding-left: 80px;
+    }
+
+    .box .boxcontent .sortby2 {
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .box {
+        width: 100%;
+    }
+
+    .box .boxcontent {
+        padding: 15px;
+    }
+
+    .box .boxcontent span {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+    .box .boxcontent .view1 {
+        padding-left: 20px;
+    }
+
+    .box .boxcontent .sortby2 {
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (max-width:420px) {
+
+    .box .boxcontent {
+        padding: 8px;
+    }
+
+    .box .boxcontent span {
+        padding-left: 5px;
+        padding-right: 0px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .box .boxcontent .view1 {
+        display: none;
+
+    }
+
+    .box .boxcontent .sortby2 {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+
+    .box {
+        width: 340px;
+        margin-left: 14px;
+        padding: 5px;
+    }
+
+    .box .boxcontent {
+        display: block;
+        padding: 6px;
+        display: block;
+    }
+
+    .box .boxcontent span {
+        padding-left: 5px;
+        padding-right: 0%;
+    }
+
+    .box .boxcontent .view1 {
+        padding-left: 0;
+        padding-left: 250px;
+        margin-left: 200px;
+        font-size: 20px;
+        padding: 10px;
+        padding-top: -0px;
+    }
+
+    .box .boxcontent span {
+        font-size: 14px;
+    }
+}

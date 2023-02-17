@@ -1,0 +1,10 @@
+<h4 class="RefineBy"> Refine By</h4>
+<div class="border">
+    <div class="refineBy" *ngFor="let refine of refines">
+        <div class="onsale">
+            <input type="checkbox" (change)="refinefilter(refine.rvalue)">
+            <label for="sale"> {{refine.refinename}} </label>
+        </div>
+
+    </div>
+</div>

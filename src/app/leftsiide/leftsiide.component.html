@@ -1,0 +1,15 @@
+<button class="show" (click)="showFilters()">Show Filters</button>
+<div class="allfilters" *ngIf="showme">
+    <div>
+        <app-search></app-search>
+    </div>
+    <div>
+        <app-categories></app-categories>
+    </div>
+    <app-price></app-price>
+    <app-refine></app-refine>
+    <app-size></app-size>
+    <app-color></app-color>
+    <app-tags></app-tags>
+</div>
+

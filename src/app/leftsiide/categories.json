@@ -1,0 +1,28 @@
+[
+    {
+        "catename":"Shoes",
+        "value":"shoes"
+    },
+
+    {
+        "catename":"T-shirts",
+        "value":"tshirt"
+    },
+
+    {
+        "catename":" Bags",
+        "value":"bag"
+    },
+
+    {
+        "catename":"Sunglasses",
+        "value":"sunglass"
+    },
+
+    {
+        "catename":"others",
+        "value":"other"
+    }
+
+    
+]

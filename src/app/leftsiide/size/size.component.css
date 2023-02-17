@@ -1,0 +1,36 @@
+.Sizetext{
+    padding-bottom: 10px;
+    padding-top: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.border{
+    border: 1px solid transparent;
+    padding-bottom: 28px;
+    border-bottom-color: #dcdbdb;
+}
+
+.size{
+    margin-left: auto;
+    padding-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.xl{
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width:375px){
+    .Sizetext{
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .size{
+        margin-left: 10px;
+        width: 100%;
+    }
+}

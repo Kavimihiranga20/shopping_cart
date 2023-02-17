@@ -1,0 +1,72 @@
+.tagtext{
+    margin-top: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tagbox{
+    margin-left: 0px;
+    padding-top: 25px;
+    display: flex;
+    width: 180px;
+    flex-wrap: wrap;
+}
+
+.tagbox .tags1 ul{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.tagbox .tags1 ul li{
+    list-style: none;
+    padding: 3px;
+
+}
+
+button{
+    width: 80px;
+    height: 20px;
+    border: 1px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    color:	 #939393;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:375px){
+    .tagtext{
+        margin-left: 10px;
+        width: 100px;
+    }
+
+    .tagbox{
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .tagbox .tags1 ul{
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .tagbox .tags1 ul li{
+        width: 100%;
+        height: 100%;
+    }
+
+    .tagbox .tags2 ul{
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .tagbox .tags2 ul li{
+        width: 100%;
+        height: 100%;
+    }
+
+
+}

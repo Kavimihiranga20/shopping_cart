@@ -1,0 +1,8 @@
+<h4  class="categ poppins"> Categories </h4>
+<div class="border">
+<div class="catI" *ngFor="let catg of Categories">
+    <ul class="catul"   >
+        <li class="catli"><button (click)="catFilter(catg.value)"> {{catg.catename}} </button></li>
+    </ul>
+</div>
+</div>

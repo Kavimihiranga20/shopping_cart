@@ -1,0 +1,124 @@
+ 
+  [
+    {
+      "id" :"1",
+      "image": "img1.png",
+      "name": "Gray T-shirt",
+      "price": 20.50,
+      "value":"tshirt",
+      "svalue":"T shirt Large size",
+      "cvalue":"gray color",
+      "rvalue":"On sale",
+      "tagvalue":"clothes",
+      "ratevalue":"2" 
+  
+    },
+
+    {
+      "id" :"2",
+      "image": "img2.png",
+      "name": "Black sunglasse",
+      "price": 15.25,
+      "value":"sunglass",
+      "svalue":"black color larger items",
+      "cvalue":"black color",
+      "rvalue":"On sale",
+      "tagvalue":"fashion",
+      "ratevalue":"4" 
+
+    },
+
+    {
+      "id" :"3",
+      "image": "img3.png",
+      "name": "White shoes",
+      "price": 40.25,
+      "value":"shoes",
+      "svalue":"L",
+      "cvalue":"white color",
+      "rvalue":"New",
+      "tagvalue":"for men",
+      "ratevalue":"5" 
+
+    },
+
+    {
+      "id" :"1",
+      "image": "img4.png",
+      "name": "School bag",
+      "price": 7.11,
+      "value":"bag",
+      "svalue":"school bag small size",
+      "cvalue":"blue color",
+      "rvalue":"In stock",
+      "ratevalue":"7" 
+
+
+    },
+
+    {
+      "id" :"2",
+      "image": "img5.png",
+      "name": "Black T shirt",
+      "price": 20.12,
+      "value":"tshirt",
+      "svalue":"black color larger items",
+      "cvalue":"black color",
+      "rvalue":"New",
+      "tagvalue":"clothes",
+      "ratevalue":"2" 
+      
+    },
+
+    {
+      "id" :"3",
+      "image": "img6.png",
+      "name": "Traval Bag",
+      "price": 20.02,
+      "value":"bag",
+      "svalue":" traval bag large size",
+      "cvalue":"blue color",
+      "rvalue":"In stock",
+      "ratevalue":"3" 
+    },
+
+    {
+      "id" :"1",
+      "image": "img7.png",
+      "name": "Apple Airpods",
+      "price": 10.20,
+      "value":"other",
+      "svalue":"XL",
+      "cvalue":"white color",
+      "rvalue":"On stock",
+      "ratevalue":"6" 
+
+    },
+
+    {
+      "id" :"2",
+      "image": "img8.png",
+      "name": "Water bottle",
+      "price": 5.15,
+      "value":"other",
+      "svalue":"water bottle medium size",
+      "cvalue":"white color",
+      "rvalue":"New",
+      "ratevalue":"2" 
+    },
+
+    {
+      "id" :"3",
+      "image": "img9.png",
+      "name": "Earring",
+      "price": 2.00,
+      "value":"other",
+      "svalue":"black color larger items",
+      "cvalue":"black color",
+      "rvalue":"In stock",
+      "tagvalue":"fashion",
+      "ratevalue":"2" 
+
+    }
+
+  ]

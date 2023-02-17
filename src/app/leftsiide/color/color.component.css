@@ -1,0 +1,36 @@
+.clourtext {
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.border {
+    border: 1px solid transparent;
+    padding-bottom: 28px;
+    border-bottom-color: #dcdbdb;
+}
+
+.Color {
+    margin-left: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.green {
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width:375px) {
+    .clourtext {
+        margin-left: 10px;
+        width: 100px;
+    }
+
+    .Color {
+        margin-left: 10px;
+        width: 100%;
+    }
+}

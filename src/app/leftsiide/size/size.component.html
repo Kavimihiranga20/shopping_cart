@@ -1,0 +1,11 @@
+<h4 class="Sizetext"> Size</h4>
+<div class="border">
+<div class="new" *ngFor="let sizs of sizes">
+<div class="size"  >
+    <div class="xl">
+        <input type="checkbox" id="sale" value="4"  (click) = "sizefilter(sizs.svalue)"    >
+        <label for="sale"> {{sizs.sizename}} </label>
+    </div> 
+</div>
+</div>
+</div>

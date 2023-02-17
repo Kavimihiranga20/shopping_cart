@@ -1,0 +1,66 @@
+h4 {
+    margin-top: 60px;
+    margin-left: auto;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-top: 96px;
+}
+
+.searchbar {
+    margin-left: auto;
+    display: flex;
+    margin-top: 100px;
+    float: left;
+    padding-bottom: 10px;
+    margin-top: 135px;
+    border: 1px solid transparent;
+    padding-bottom: 28px;
+    padding-right: 85px;
+    border-bottom-color: #dcdbdb;
+}
+
+.searchbar input {
+    width: 130px;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid;
+    border-color: #dcdbdb;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.searchbar button {
+    width: 30px;
+    border: 1px solid;
+    border-color: #dcdbdb;
+    background-color: white;
+}
+
+
+@media only screen and (max-width:992px) {}
+
+@media only screen and (max-width:375px) {
+
+    h4 {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 35px;
+    }
+
+    .searchbar {
+        width: 100px;
+        margin-top: 90px;
+        margin-left: 10px;
+    }
+
+    .searchbar input {
+        width: 250px;
+        height: 25px;
+    }
+
+    .searchbar button {
+        width: 50px;
+    }
+}

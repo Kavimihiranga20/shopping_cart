@@ -1,0 +1,37 @@
+.RefineBy {
+    margin-left: auto;
+    padding-bottom: 6px;
+    margin-top: 110px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.refineBy {
+    margin-top: 11px;
+    margin-left: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.border {
+    border: 1px solid transparent;
+    padding-bottom: 28px;
+    border-bottom-color: #dcdbdb;
+}
+
+.onsale {
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width:375px) {
+    .RefineBy {
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+
+    .refineBy {
+        margin-left: 10px;
+        width: 100%;
+    }
+}

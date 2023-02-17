@@ -1,0 +1,79 @@
+.upperBar {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    border-bottom-color: #DCDCDC;
+    outline: none;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.freeShiping {
+    float: left;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.freeShiping span span {
+    color: red;
+}
+
+.trackOrder {
+    margin-left: 200px;
+    padding-right: -40px;
+}
+
+.trackOrder span {
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown1 {
+    margin-left: 36px;
+    outline: none;
+}
+
+.dropdown2 {
+    margin-left: 32px;
+    padding-left: 10px;
+}
+
+select {
+    border: 1px solid transparent;
+    border-left-color: #DCDCDC;
+    padding-left: 29px;
+    padding-right: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icons {
+    float: inline-end;
+    margin: auto;
+    display: flex;
+}
+
+.icons ul {
+    display: flex;
+    list-style: none;
+}
+
+.icons ul li {
+    padding-left: 20px;
+}
+
+
+
+
+
+/* 1440 | 1400 */
+/* 1280 | 1200 */
+/* 1024 */
+/* 991 */
+/* 768 */
+/* 660 | 600 */
+/* 480 */
+/* 420 */
+/* 375 */

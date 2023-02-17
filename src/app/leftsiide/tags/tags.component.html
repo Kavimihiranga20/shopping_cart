@@ -1,0 +1,8 @@
+<h4 class="tagtext"> Popular Tags </h4>
+<div class="tagbox">
+    <div class="tags1" *ngFor="let tag of tags">
+        <ul>
+            <li> <button (click)="tagfilter(tag.tagvalue)"> {{tag.tagname}} </button></li>
+        </ul>
+    </div>
+</div>

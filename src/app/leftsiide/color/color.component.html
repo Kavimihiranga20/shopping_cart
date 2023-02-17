@@ -1,0 +1,9 @@
+<h4 class="clourtext"> Color </h4>
+<div class="border">
+<div class="Color" *ngFor = "let color of colors">
+    <div class="green">
+        <input type="checkbox" id="sale" (click) = "colorfilter(color.cvalue)" >
+        <label for="sale"> {{color.colorname}} </label>
+    </div>   
+</div>
+</div>
