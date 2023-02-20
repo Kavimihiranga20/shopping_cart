@@ -3,10 +3,11 @@
     height: 50px;
     align-items: center;
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 34px;
     border-color: #dcdbdb;
     border-width: 1px;
     margin-top: 98px;
+
 }
 
 .icon {
@@ -17,10 +18,6 @@
 .icon .fa-solid.fa-grip-vertical {
     color: red;
     margin-right: 5px;
-}
-
-.icon2 {
-    font-size: 20px;
 }
 
 .box .boxcontent {
@@ -57,9 +54,7 @@ select {
     border-width: 3px;
 }
 
-#view {
-    width: 50px;
-}
+
 
 @media only screen and (max-width:1204px) {
 
@@ -75,66 +70,103 @@ select {
     }
 }
 
-@media only screen and (max-width:1024px) {
-
-    .box {
-        width: 100%;
+@media only screen and (max-width:1195px){
+    
+    .icon {
+        padding-right: 7px;
+        font-size: 15px;
     }
 
     .box .boxcontent {
-        padding: 13px;
-
+        font-size: 14px;
     }
 
-    .box .boxcontent span {
-        padding-left: 5px;
+    #view{
+        font-size: 14px;
     }
 
-    .box .boxcontent .view1 {
-        padding-left: 150px;
-    }
-
-    .box .boxcontent .sortby2 {
-
-        padding-left: 25px;
+    #sortBy {
+        font-size: 14px;
     }
 
 }
 
-@media only screen and (max-width:1020px) {
 
-    .box .boxcontent .view1 {
-        padding-left: 20px;
+@media only screen and (max-width:1159px) {
+
+    .box .boxcontent{
+        font-size: 12px;
     }
 
-    .box .boxcontent span {
-        padding-left: 80px;
+    #view{
+        font-size: 12px;
+    }
+
+    #sortBy {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:1105px) {
+
+    .box .boxcontent{
         font-size: 10px;
     }
+
+    #view{
+        font-size: 10px;
+    }
+
+    #sortBy {
+        font-size: 10px;
+    }
+
 }
+
+
+
+@media only screen and (max-width:1024px) {
+
+    .box .boxcontent{
+        font-size: 11px;
+    }
+
+    #view{
+        font-size: 11px;
+    }
+
+    #sortBy {
+        font-size: 11px;
+    }
+
+    .view1 select {
+        width: 35px;
+    }
+
+    .box .boxcontent .view1 {
+        margin-left: 100px;
+    }
+
+}
+
 
 @media only screen and (max-width:992px) {
 
-    .box {
-        width: 692px;
+    .box .boxcontent{
+        font-size: 10px;
     }
 
-    .box .boxcontent {
-        padding: 14px;
+    #view{
+        font-size: 10px;
     }
 
-    .box .boxcontent span {
-        padding-left: 5px;
-        padding-right: 0px;
-
+    #sortBy {
+        font-size: 10px;
     }
 
     .box .boxcontent .view1 {
-        padding-left: 200px;
-    }
-
-    .box .boxcontent .sortby2 {
-        padding-left: 55px;
+        margin-left: 80px;
     }
 }
 

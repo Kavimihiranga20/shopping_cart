@@ -64,7 +64,188 @@ select {
     padding-left: 20px;
 }
 
+@media only screen and (max-width:1400px){
+ 
 
+    .freeShiping {
+        font-size: 14px;
+    }
+
+    .trackOrder {
+        margin-left: 270px;
+    }
+
+    .trackOrder span{
+        font-size: 14px;
+    }
+
+    .dropdown1 {
+        margin-left: 50px;
+    }
+    
+    .dropdown2 {
+        margin-left: 50px;
+        padding-left: 15px;
+    }
+
+    select {
+        padding-left: 50px;
+        padding-right: 19px;
+        font-size: 14px;
+    }
+
+    .icons ul li {
+        padding-left: 28px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:1200px){   
+    .upperBar {
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+    }
+    
+    .freeShiping {
+        font-size: 13px;
+    }
+    
+    .trackOrder {
+        margin-left: 200px;
+        padding-right: -40px;
+    }
+    
+    .trackOrder span {
+        font-size: 13px;
+    }
+    
+    .dropdown1 {
+        margin-left: 36px;
+    }
+    
+    .dropdown2 {
+        margin-left: 32px;
+        padding-left: 10px;
+    }
+    
+    select {
+        padding-left: 29px;
+        padding-right: 19px;
+        font-size: 12px;
+    }
+    
+    .icons {
+        margin: auto;
+    }
+    
+    .icons ul li {
+        padding-left: 20px;
+       
+    }
+}
+
+@media only screen and (max-width:1139px){
+
+    .freeShiping{
+        font-size: 12px;
+    }
+
+    .trackOrder{
+      margin-left: 100px;
+     
+    }
+    .trackOrder span {
+        font-size: 12px;
+    }
+ 
+    select {
+        padding-left: 29px;
+        padding-right: 19px;
+        font-size: 12px;
+    } 
+    .upperBar {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .freeShiping {
+        font-size: 12px;
+    }
+
+    .icons ul li {
+        padding-left: 30px;
+    }
+
+    .dropdown1 {
+        margin-left: 80px;
+        padding-left: -180px;
+    }
+    
+    .dropdown2 {
+        margin-left: 40px;
+        padding-left: 2px;
+    }
+    
+    .icons {
+        margin-top: 4px;
+    }
+    .icons ul li {
+        padding-left: 22px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:1048px){
+   
+    .freeShiping{
+        font-size: 12px;
+    }
+
+    .trackOrder{
+      margin-left: 100px;
+     
+    }
+    .trackOrder span {
+        font-size: 12px;
+    }
+ 
+    select {
+        padding-left: 29px;
+        padding-right: 19px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:1024px){
+   
+    .freeShiping{
+        font-size: 12px;
+    }
+
+    .trackOrder{
+      margin-left: 100px;
+     
+    }
+    .trackOrder span {
+        font-size: 12px;
+    }
+ 
+    select {
+        padding-left: 29px;
+        padding-right: 19px;
+        font-size: 12px;
+    }
+
+}
 
 
 

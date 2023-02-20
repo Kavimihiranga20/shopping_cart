@@ -64,17 +64,96 @@
     font-size: 16px;
 }
 
-@media only screen and (max-width:1024px){
 
-    .navbar{
-        width: 1024px;
+@media only screen and (max-width:1200px){
+
+    .navbar {
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        margin-top: -10px;
+        /* position: fixed; */
+    }
+    
+    .icon {
+        width: 100px;
+        height: 20px;
+        float: left;
+        margin-top: 25px;
+    }
+    
+    .icon img{
+        width: 100px;
+        height: 20px;
+    }
+    
+    .menu {
+        width: 400px;
+        height: 100px;
+        float: left;
+        margin-left: 50px;
+    }
+    
+    .ul {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ul .li {
+        list-style: none;
+        margin-left: 45px;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    
+    .ul .li a {
+        text-decoration: none;
+        color: black;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    .ul .li a:hover {
+        color:red;
+    }
+    
+    .icons {
+        float: right;
+        margin-top: 30px;
+        display: flex;
+    }
+    
+    .icons a {
+        width: 50px;
+        height: 20px;
+        color: black;
+        font-size: 16px;
     }
 }
 
-@media only screen and (max-width:992px){
-    .navbar{
-        width: 100%;
+
+
+
+
+@media only screen and (max-width:1024px){
+
+    .ul .li {
+        font-size: 13px;
+        margin-left: 35px;
+    }  
+
+    .icons a {
+        font-size: 14px;
     }
+
+     
+}
+
+@media only screen and (max-width:992px){
+    
 }
 
 @media only screen and (max-width:768px){
