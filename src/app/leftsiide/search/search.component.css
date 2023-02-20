@@ -38,6 +38,39 @@ h4 {
     background-color: white;
 }
 
+@media only screen and (max-width:1195px){
+
+    h4{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:1167px){
+
+    h4{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:1159px) {
+     h4{
+        font-size: 12px;
+     }
+}
+
+@media only screen and (max-width:1105px) {
+    h4{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+  
+}
+
+
+
+
 
 @media only screen and (max-width:992px) {}
 
