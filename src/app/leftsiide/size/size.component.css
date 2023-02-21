@@ -15,7 +15,7 @@
     margin-left: auto;
     padding-top: 0px;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .xl{
@@ -23,14 +23,68 @@
     padding-bottom: 0px;
 }
 
-@media only screen and (max-width:375px){
+#sale{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1195px){
+
     .Sizetext{
-        width: 100px;
-        margin-left: 10px;
+        font-size: 14px;
     }
 
     .size{
-        margin-left: 10px;
-        width: 100%;
+        font-size: 13px;
+    }
+
+}
+
+
+/* @media only screen and (max-width:1167px){
+
+    .Sizetext{
+        font-size: 13px;
+    }
+
+    .size{
+        font-size: 12px;
     }
 }
+
+@media only screen and (max-width:1159px) {
+    .Sizetext{
+        font-size: 12px;
+    }
+
+    .size{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:1105px) {
+    .Sizetext{
+        font-size: 11px;
+    }
+
+    .size{
+        font-size: 10px;
+    }
+
+    #sale{
+        height: 11px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .Sizetext{
+        font-size: 10px;
+    }
+
+    .size{
+        font-size: 9px;
+    }
+
+    #sale{
+        height: 10px;
+    }
+} */

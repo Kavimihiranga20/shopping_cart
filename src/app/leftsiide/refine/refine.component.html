@@ -2,7 +2,7 @@
 <div class="border">
     <div class="refineBy" *ngFor="let refine of refines">
         <div class="onsale">
-            <input type="checkbox" (change)="refinefilter(refine.rvalue)">
+            <input type="checkbox" id="refine" (change)="refinefilter(refine.rvalue)">
             <label for="sale"> {{refine.refinename}} </label>
         </div>
 

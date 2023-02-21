@@ -23,15 +23,67 @@
     padding-bottom: 0px;
 }
 
-@media only screen and (max-width:375px) {
-    .RefineBy {
-        width: 100%;
-        padding-left: 10px;
-        padding-top: 40px;
-    }
+#refine{
+    cursor: pointer;
+}
 
+@media only screen and (max-width:1195px){
+
+    .RefineBy {
+        font-size: 14px;
+    }
+    
     .refineBy {
-        margin-left: 10px;
-        width: 100%;
+        font-size: 13px;
     }
 }
+/* @media only screen and (max-width:1167px){
+
+    .RefineBy {
+        font-size: 13px;
+    }
+    
+    .refineBy {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1159px) {
+
+    .RefineBy {
+        font-size: 12px;
+    }
+    
+    .refineBy {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:1105px) {
+    .RefineBy {
+        font-size: 11px;
+    }
+    
+    .refineBy {
+        font-size: 10px;
+    }
+
+    #refine{
+        height: 11px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .RefineBy {
+        font-size: 10px;
+    }
+    
+    .refineBy {
+        font-size: 9px;
+    }
+
+    #refine{
+        height: 10px;
+    }
+} */
+

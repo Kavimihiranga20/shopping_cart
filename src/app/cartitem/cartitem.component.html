@@ -1,11 +1,3 @@
-<div class="sortby">
-    <select id="sort-by" (change)="sort($event)">
-        <option value="" selected disabled hidden>Sort By</option>
-        <option value="Name">Name</option>
-        <option value="Low">Show Low to High Price</option>
-        <option value="High">Show High to Low Price</option>
-    </select>
-</div>
 <div class="d-flex">
     <div class="col-4" *ngFor="let item of items | slice:0:vservice.viewItem  | filter:service.searchText ">
         <div class="item">

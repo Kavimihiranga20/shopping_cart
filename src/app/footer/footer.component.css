@@ -181,193 +181,131 @@
     color: red;
 }
 
-@media only screen and (max-width:1440px) {
-
-    .container {
-        width: 1440px;
-    }
-}
-
-@media only screen and (max-width:1439px) {
-
+@media only screen and (max-width:1200px){
     .container {
         width: 100%;
     }
-}
-
-@media only screen and (max-width:1340px) {
-
-    .container {
-        width: 100%;
+    
+    .cl {
+        width: 50%;
+    }
+    
+    .cll {
+        width: 50%;
     }
 }
 
+@media only screen and (max-width:1167px){
 
-@media only screen and (max-width:1024px) {
-
-    .container {
-        width: 100%;
+    .cl .cl2 h3 {
+        font-size: 14px;
     }
+    
+    .cl .cl2 p {
+        font-size: 12px;
+    }
+    
+    .cl .cl3 img {
+        width: 80px;
+        height: 20px;
+    }
+     
+    .Cl4 p {
+        font-size: 12px;
+    }
+    
+    .Cl4 span {
+        font-size: 12px;
+    }
+    
+    .cl5 p {
+        font-size: 12px;
+    }
+    
+    .cl5 span {
+        font-size: 12px;
+    }
+    
+    .fa-regular.fa-envelope{
+        font-size: 15px;
+    }    
+    .clltextbox {
+        font-size: 11px;
+        height: 22px;
+        width: 250px;
+    }
+    
+    .cll2 button {
+        height: 20px;
+    }  
 }
-
-@media only screen and (max-width:992px) {
-
-    .container {
-        width: 100%;
+/* 
+@media only screen and (max-width:1105px) {
+    .cl .cl2 h3 {
+        font-size: 12px;
     }
-}
-
-/* @media only screen and (max-width:768px){
-
-    .container{
-        width:768px;
+    
+    .cl .cl2 p {
+        font-size: 10px;
     }
-
-} */
-
-@media only screen and (max-width:600px) {
-
+    
+    .cl .cl3 img {
+        width: 60px;
+        height: 15px;
+    }
+     
+    .Cl4 p {
+        font-size: 10px;
+    }
+    
+    .Cl4 span {
+        font-size: 11px;
+    }
+    
+    .cl5 p {
+        font-size: 10px;
+    }
+    
+    .cl5 span {
+        font-size: 11px;
+    }
+    
+    .fa-regular.fa-envelope{
+        font-size: 13px;
+    }    
+    .clltextbox {
+        font-size: 10px;
+        height: 22px;
+        width: 230px;
+    }
+    
+    .cll2 button {
+        height: 14px;
+        font-size: 11px;
+    }
+    
     .cll .cll3 {
         width: max-content;
         margin-left: auto;
-        margin-right: 20px;
+        margin-top: 212px;
     }
-
+    
     .cll .cll3 ul li {
-        list-style: none;
-        padding-right: 5px;
-
-    }
-
-    .cll2 button {
-        padding-right: 5px;
-    }
-}
-
-@media only screen and (max-width:480px) {
-
-    .cll3 ul li {
-        padding: 10px;
         font-size: 12px;
     }
-
-    .clltextbox {
-        width: 160px;
+    
+    .footericons ul li a {
         font-size: 11px;
     }
-}
+    
+    .par p {
+        font-size: 9px;
+        color: #999999;
+    }
+} */
 
-@media only screen and (max-width:420px) {
-
-    .cll3 ul li {
+@media only screen and (max-width:992px) {
+    h4{
         font-size: 10px;
     }
-
-    .cl .cl2 h3 {
-        font-size: 13px;
-    }
-
-    .cl .cl2 p {
-        font-size: 10px;
-
-    }
-
-    .cl {
-        font-size: 12px;
-    }
-
-    .clltextbox {
-        width: 130px;
-        font-size: 10px;
-    }
-
-    .cll2 button {
-        width: 80px;
-    }
 }
-
-@media only screen and (max-width:375px) {
-
-    .hero {
-        width: 375px;
-        height: 480px;
-    }
-
-    .container {
-        width: 375px;
-    }
-
-    .cl {
-        width: 100px;
-    }
-
-    .cll {
-        width: 275px;
-    }
-
-    .cl .cl2 {
-        padding-left: 10px;
-    }
-
-    .cl .cl2 h3 {
-        font-size: 15px;
-    }
-
-    .cl .cl2 p {
-        font-size: 13px;
-    }
-
-    .cl3 {
-        padding-left: 10px;
-    }
-
-    .Cl4 {
-        padding-left: 10px;
-        font-size: 15px;
-    }
-
-    .cl5 {
-        padding-left: 10px;
-        font-size: 15px;
-    }
-
-    .cll2 {
-        width: 100%;
-
-    }
-
-    .clltextbox {
-        width: 125px;
-        letter-spacing: 0;
-        font-size: 11px;
-    }
-
-    .cll3 {
-        width: 100%;
-
-    }
-
-    .cll .cll3 ul {
-        font-size: 12px;
-        padding-right: 20px;
-    }
-
-    .cll .cll3 ul li {
-        padding: 3px;
-    }
-
-    .footericons {
-        padding-right: 15px;
-    }
-
-}
-
-/* 1440 | 1400 */
-/* 1280 | 1200 */
-/* 1024 */
-/* 991 */
-/* 768 */
-/* 660 | 600 */
-/* 480 */
-/* 420 */
-/* 375 */

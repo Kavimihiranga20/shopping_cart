@@ -23,14 +23,69 @@
     padding-bottom: 0px;
 }
 
-@media only screen and (max-width:375px) {
+#color{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:1195px){
+
     .clourtext {
-        margin-left: 10px;
-        width: 100px;
+        font-size: 14px;
     }
 
     .Color {
-        margin-left: 10px;
-        width: 100%;
+        font-size: 13px;
     }
 }
+
+
+/* @media only screen and (max-width:1167px){
+
+    .clourtext {
+        font-size: 13px;
+    }
+
+    .Color {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1159px) {
+    .clourtext {
+        font-size: 12px;
+    }
+
+    .Color {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:1105px) {
+    .clourtext {
+        font-size: 11px;
+    }
+
+    .Color {
+        font-size: 10px;
+    }
+
+    #color{
+        height: 11px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .clourtext {
+        font-size: 10px;
+    }
+
+    .Color {
+        font-size: 9px;
+    }
+
+    #color{
+        height: 10px;
+    }
+} */
+

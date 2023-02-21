@@ -16,9 +16,6 @@
     margin-left: auto;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
-    /* border: 1px solid transparent;
-    padding-bottom: 28px;
-    border-bottom-color:#dcdbdb; */
     padding-right: 60px;
 }
 
@@ -65,27 +62,127 @@
     font-size: 11px;
 }
 
-
-@media only screen and (max-width:375px){
+@media only screen and (max-width:1195px){
     .Price-Filters{
-        width: 100px;
-        margin-left: 10px;
+        font-size: 14px;
     }
 
     .menuprice{
-        padding-left: 10px;
-        width: 100px;
-        display:block;
+        width: 180px;
+        font-size: 13px;
     }
-
-    .menuprice .price{
-        width: 100%;
-    }
-
     .price input{
-        width: 100%;
-        margin-right: 11px;
-        margin-left: 4px;
+        width: 45px;
+        height: 85%;
+        font-size: 13px;
+    }
+
+    .button button{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 11px;
+        padding-right: 11px;
+        font-size: 10px;
+    }
+}
+
+/* @media only screen and (max-width:1167px){
+
+    .Price-Filters{
+        font-size: 13px;
+    }
+
+    .menuprice{
+        width: 170px;
+        font-size: 12px;
+    }
+    .price input{
+        width: 40px;
+        height: 83%;
+        font-size: 13px;
+    }
+
+    .button button{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:1159px) {
+    .Price-Filters{
+        font-size: 12px;
+    }
+
+    .menuprice{
+        width: 160px;
+        font-size: 11px;
+    }
+    .price input{
+        width: 40px;
+        height: 83%;
+        font-size: 11px;
+    }
+
+    .button button{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 8px;
     }
 
 }
+
+@media only screen and (max-width:1105px) {
+
+    .Price-Filters{
+        font-size: 11px;
+    }
+
+    .menuprice{
+        width: 158px;
+        font-size: 10px;
+    }
+    .price input{
+        width: 40px;
+        height: 83%;
+        font-size: 10px;
+    }
+
+    .button button{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 8px;
+    }
+
+}
+
+@media only screen and (max-width:992px) {
+    .Price-Filters{
+        font-size: 10px;
+    }
+
+    .menuprice{
+        width: 158px;
+        font-size: 9px;
+    }
+    .price input{
+        width: 40px;
+        height: 83%;
+        font-size: 9px;
+    }
+
+    .button button{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 8px;
+    }
+} */
+
