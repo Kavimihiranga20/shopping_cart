@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, ElementRef, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-leftsiide',
@@ -14,6 +14,17 @@ export class LeftsiideComponent {
   
   ngOnInit(){
   }
+  
+   closeNav(){
+    let sidebar = document.querySelector('#mySiderbar');
+    if(sidebar?.classList.contains('show-siderbar')){
+      sidebar.classList.remove('show-siderbar');
+    }
+  }
+
+  openNav(){
+    document.querySelector('#mySiderbar')?.classList.add('show-siderbar');
+  }
 
   ngAfterViewInit(){
     if(window.innerWidth > 768){
@@ -25,4 +36,8 @@ export class LeftsiideComponent {
     this.showme = (window.innerWidth > 768)
   }
 
+
+
+
+  
 }

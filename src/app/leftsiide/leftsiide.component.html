@@ -1,15 +1,22 @@
-<button class="show" (click)="showFilters()">Show Filters</button>
-<div class="allfilters" *ngIf="showme">
-    <div>
-        <app-search></app-search>
-    </div>
-    <div>
-        <app-categories></app-categories>
-    </div>
-    <app-price></app-price>
-    <app-refine></app-refine>
-    <app-size></app-size>
-    <app-color></app-color>
-    <app-tags></app-tags>
+<!-- <button class="show" (click)="showFilters()">Show Filters</button> -->
+<div id="main">
+    <button class="openbtn" (click)="openNav()">&#9776; Open Sidebar </button>
 </div>
-
+<div id="mySiderbar" class="sidebar">
+    <div >
+        <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+    </div>
+    <div class="allfilters" *ngIf="showme">
+        <div>
+            <app-search></app-search>
+        </div>
+        <div>
+            <app-categories></app-categories>
+        </div>
+        <app-price></app-price>
+        <app-refine></app-refine>
+        <app-size></app-size>
+        <app-color></app-color>
+        <app-tags></app-tags>
+    </div>
+</div>

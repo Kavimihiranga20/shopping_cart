@@ -86,82 +86,6 @@ select {
     }
 }
 
-/* @media only screen and (max-width:1167px){
-
-    .box .boxcontent {
-        font-size: 13px;
-    }
-
-    #view{
-        font-size: 13px;
-    }
-
-    #sortBy {
-        font-size: 13px;
-    }
-
-}
-
-
-@media only screen and (max-width:1159px) {
-
-    .box .boxcontent{
-        font-size: 12px;
-    }
-
-    #view{
-        font-size: 12px;
-    }
-
-    #sortBy {
-        font-size: 12px;
-    }
-
-}
-
-@media only screen and (max-width:1105px) {
-
-    .box .boxcontent{
-        font-size: 11px;
-    }
-
-    #view{
-        font-size: 11px;
-    }
-
-    #sortBy {
-        font-size: 11px;
-    }
-
-}
-
-
-
-@media only screen and (max-width:1024px) {
-
-    .box .boxcontent{
-        font-size: 11px;
-    }
-
-    #view{
-        font-size: 11px;
-    }
-
-    #sortBy {
-        font-size: 11px;
-    }
-
-    .view1 select {
-        width: 35px;
-    }
-
-    .box .boxcontent .view1 {
-        margin-left: 100px;
-    }
-
-} */
-
-
 @media only screen and (max-width:1167px) {
 
     .box .boxcontent{
@@ -339,4 +263,31 @@ select {
     }
 }
 
+@media only screen and (max-width:768px){
 
+    .box .boxcontent .view1 {
+        margin-left: 200px;
+        padding-right: 5px;  
+    }
+
+    .box .boxcontent {
+        font-size: 12px;
+    }
+
+    #view{
+        font-size: 12px;
+    }
+
+    #sortBy {
+        font-size: 12px;
+    }
+
+    .fa-solid.fa-grip-vertical{
+        font-size: 12px;
+    }
+
+    .fa-solid.fa-bars{
+        font-size: 12px;
+    }
+    
+}
