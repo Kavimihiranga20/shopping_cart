@@ -116,7 +116,6 @@
     border: none;
     height: 24px;
     background-color: #F5F5F5;
-    font-family: serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -239,73 +238,74 @@
         height: 20px;
     }  
 }
-/* 
-@media only screen and (max-width:1105px) {
-    .cl .cl2 h3 {
-        font-size: 12px;
-    }
-    
-    .cl .cl2 p {
-        font-size: 10px;
-    }
-    
-    .cl .cl3 img {
-        width: 60px;
-        height: 15px;
-    }
-     
-    .Cl4 p {
-        font-size: 10px;
-    }
-    
-    .Cl4 span {
-        font-size: 11px;
-    }
-    
-    .cl5 p {
-        font-size: 10px;
-    }
-    
-    .cl5 span {
-        font-size: 11px;
-    }
-    
-    .fa-regular.fa-envelope{
-        font-size: 13px;
-    }    
-    .clltextbox {
-        font-size: 10px;
-        height: 22px;
-        width: 230px;
-    }
-    
-    .cll2 button {
-        height: 14px;
-        font-size: 11px;
-    }
-    
-    .cll .cll3 {
-        width: max-content;
-        margin-left: auto;
-        margin-top: 212px;
-    }
-    
-    .cll .cll3 ul li {
-        font-size: 12px;
-    }
-    
-    .footericons ul li a {
-        font-size: 11px;
-    }
-    
-    .par p {
-        font-size: 9px;
-        color: #999999;
-    }
-} */
 
 @media only screen and (max-width:992px) {
     h4{
         font-size: 10px;
     }
 }
+
+@media only screen and (max-width:720px){
+
+    .cll3 ul li a{
+        padding-left: -20px;
+    }
+
+    .cll .cll3 ul li {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:630px){
+
+    .cll .cll3 ul li {
+        padding: 5px;
+    }
+
+    .cll .cll3 ul li a{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:690px){
+
+    .par {
+        margin-top: 95px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width:647px){
+
+    .cll .cll2 .ic {
+        padding-right: 7px;
+    }
+    
+    .clltextbox {
+        font-size: 12px;
+        height: 22px;
+        width: 200px;
+        letter-spacing: 1px;
+    }
+    
+   
+}
+
+@media only screen and (max-width:595px){
+
+    .cll .cll2 .ic {
+        padding-right: 5px;
+    }
+    
+    .clltextbox {
+        font-size: 11px;
+        height: 22px;
+        width: 180px;
+    }
+
+    .cll2 button {
+        height: 20px;
+    }
+}
+

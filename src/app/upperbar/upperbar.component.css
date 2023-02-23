@@ -285,14 +285,187 @@ select {
     }
 }
 
+@media only screen and (max-width:868px){
+
+    .freeShiping {
+        font-size: 12px;
+    }
+    
+    .trackOrder {
+        margin-left: 100px;
+        padding-right: -40px;
+    }
+    
+    .trackOrder span {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    
+    .dropdown1 {
+        margin-left: 0px;
+        outline: none;
+        width: max-content;
+    }
+    
+    .dropdown2 {
+        padding-left: 0px;
+    }
+    
+    select {
+        border: 1px solid transparent;
+        border-left-color: #DCDCDC;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .icons {
+        float: inline-end;
+        margin: auto;
+        display: flex;
+
+    }
+    
+    .icons ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    .icons ul li {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width:817px){
+
+    .trackOrder {
+        margin-left: 40px;
+        padding-right: -40px;
+    }
+}
+
+@media only screen and (max-width:757px){
+
+    .trackOrder {
+        margin-left: 30px;
+        padding-right: -40px;
+    }
+
+    .dropdown1 {
+        margin-right: -30px;
+        outline: none;
+        width: max-content;
+    }
+}
+
+@media only screen and (max-width:717px){
+     
+    .trackOrder {
+        margin-left: 20px;
+        padding-right: -40px;
+    }
+
+    .dropdown1 {
+        margin-right: -30px;
+        outline: none;
+        width: max-content;
+    }
+
+    select {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .icons ul li {
+        padding-left: 7px;
+    }
+}
+
+@media only screen and (max-width:676px){
+
+    .icons {
+        margin: 0;
+        margin-top: 30px;
+    }
+    
+    .icons ul li {
+        padding-left: 18px;
+    }
+
+    .trackOrder{
+        margin-left: 20px;
+      }
+
+    .dropdown1 {
+        margin-right: -80px;
+    }
+    
+    .dropdown2 {
+        margin-left: 80px;
+        margin-right: -160px;
+        padding-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width:581px){
+
+    .trackOrder{
+        margin-left: 10px;
+      }
+
+}
+
+@media only screen and (max-width:571px){
+
+    .trackOrder{
+        margin-left: 5px;
+      }
+}
+
+@media only screen and (max-width:567px){
+
+    .freeShiping {
+        font-size: 11px;
+    }
+    
+    .trackOrder span {
+        font-size: 11px;
+    }
+    
+    select {
+        font-size: 11px;
+    }
+    
+    .icons {
+        margin-top: 40px;
+
+    }
+}
+
+@media only screen and (max-width:525px){
+
+    .trackOrder{
+        margin-left: 3px;
+        margin-right: 5px;
+      }
+
+      select {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:520px){
+
+    .trackOrder{
+        width: 100px;
+        margin-top: 35px;
+      }
+
+      
+
+}
 
 
-/* 1440 | 1400 */
-/* 1280 | 1200 */
-/* 1024 */
-/* 991 */
-/* 768 */
-/* 660 | 600 */
-/* 480 */
-/* 420 */
-/* 375 */
+
+
+

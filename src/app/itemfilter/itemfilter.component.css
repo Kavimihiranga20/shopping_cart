@@ -271,6 +271,322 @@ select {
     }
 
     .box .boxcontent {
+        font-size: 14px;
+    }
+
+    #view{
+        font-size: 14px;
+    }
+
+    #sortBy {
+        font-size: 14px;
+    }
+
+    .fa-solid.fa-grip-vertical{
+        font-size: 15px;
+    }
+
+    .fa-solid.fa-bars{
+        font-size: 15px;
+    }
+
+    .icon {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.icon .fa-solid.fa-grip-vertical {
+    color: red;
+    margin-right: 5px;
+}
+
+.box .boxcontent {
+    padding: 8px;
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+.box .boxcontent span {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.box .boxcontent .view1 {
+    margin-left: 100px;
+}
+
+.view1 select {
+    width: 45px;
+}
+
+select {
+    border: 3px solid;
+    border-color: #F8F8FF;
+    border-width: 3px;
+}
+    
+}
+
+@media only screen and (max-width:741px){
+
+    .box .boxcontent .view1 {
+        margin-left: 200px;
+        padding-right: 5px;  
+    }
+
+    .box .boxcontent {
+        font-size: 14px;
+    }
+
+    #view{
+        font-size: 14px;
+    }
+
+    #sortBy {
+        font-size: 14px;
+    }
+
+    .fa-solid.fa-grip-vertical{
+        font-size: 15px;
+    }
+
+    .fa-solid.fa-bars{
+        font-size: 15px;
+    }
+
+    .icon {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.icon .fa-solid.fa-grip-vertical {
+    color: red;
+    margin-right: 5px;
+}
+
+.box .boxcontent {
+    padding: 8px;
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+.box .boxcontent span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box .boxcontent .view1 {
+    margin-left: 100px;
+}
+
+.view1 select {
+    width: 40px;
+}
+
+select {
+    border: 3px solid;
+    border-color: #F8F8FF;
+    border-width: 3px;
+}
+    
+}
+
+@media only screen and (max-width:706px){
+
+    .box .boxcontent .view1 {
+        margin-left: 200px;
+        padding-right: 5px;  
+    }
+
+    .box .boxcontent {
+        font-size: 14px;
+    }
+
+    #view{
+        font-size: 14px;
+    }
+
+    #sortBy {
+        font-size: 14px;
+    }
+
+    .fa-solid.fa-grip-vertical{
+        font-size: 15px;
+    }
+
+    .fa-solid.fa-bars{
+        font-size: 15px;
+    }
+
+    .icon {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.icon .fa-solid.fa-grip-vertical {
+    color: red;
+    margin-right: 5px;
+}
+
+.box .boxcontent {
+    padding: 8px;
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+.box .boxcontent span {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.box .boxcontent .view1 {
+    margin-left: 100px;
+}
+
+.view1 select {
+    width: 40px;
+}
+
+select {
+    border: 3px solid;
+    border-color: #F8F8FF;
+    border-width: 3px;
+}
+
+}
+
+@media only screen and (max-width:688px){
+
+    .box .boxcontent .view1 {
+        margin-left: 200px;
+        padding-right: 0px;  
+    }
+
+    .box .boxcontent {
+        font-size: 14px;
+    }
+
+    #view{
+        font-size: 14px;
+    }
+
+    #sortBy {
+        font-size: 14px;
+    }
+
+    .fa-solid.fa-grip-vertical{
+        font-size: 15px;
+    }
+
+    .fa-solid.fa-bars{
+        font-size: 15px;
+    }
+
+    .icon {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.icon .fa-solid.fa-grip-vertical {
+    margin-right: 2px;
+}
+
+.box .boxcontent {
+    padding: 6px;
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+.box .boxcontent span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box .boxcontent .view1 {
+    margin-left: 100px;
+}
+
+.view1 select {
+    width: 40px;
+}
+
+select {
+    border: 2px solid;
+    border-color: #F8F8FF;
+    border-width: 2px;
+}
+
+}
+
+@media only screen and (max-width:662px){
+
+    .box .boxcontent .view1 {
+        margin-left: 200px;
+    }
+
+    .box .boxcontent {
+        font-size: 13px;
+    }
+
+    #view{
+        font-size: 13px;
+    }
+
+    #sortBy {
+        font-size: 13px;
+    }
+
+    .fa-solid.fa-grip-vertical{
+        font-size: 14px;
+    }
+
+    .fa-solid.fa-bars{
+        font-size: 14px;
+    }
+
+    .icon {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.icon .fa-solid.fa-grip-vertical {
+    margin-right: 2px;
+}
+
+.box .boxcontent {
+    padding: 6px;
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+.box .boxcontent span {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.box .boxcontent .view1 {
+    margin-left: 100px;
+}
+
+.view1 select {
+    width: 40px;
+}
+
+select {
+    border: 2px solid;
+    border-color: #F8F8FF;
+    border-width: 2px;
+}
+
+}
+
+@media only screen and (max-width:639px){
+
+    .box .boxcontent .view1 {
+        margin-left: 200px;
+    }
+
+    .box .boxcontent {
         font-size: 12px;
     }
 
@@ -283,11 +599,102 @@ select {
     }
 
     .fa-solid.fa-grip-vertical{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .fa-solid.fa-bars{
-        font-size: 12px;
+        font-size: 13px;
     }
-    
+
+    .icon {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.icon .fa-solid.fa-grip-vertical {
+    margin-right: 2px;
+}
+
+.box .boxcontent {
+    padding: 6px;
+    padding-top: 14px;
+    font-size: 13px;
+}
+
+.box .boxcontent span {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.box .boxcontent .view1 {
+    margin-left: 100px;
+}
+
+.view1 select {
+    width: 40px;
+}
+
+select {
+    border: 2px solid;
+    border-color: #F8F8FF;
+    border-width: 2px;
+}
+
+}
+
+@media only screen and (max-width:607px){
+
+    .box .boxcontent .view1 {
+        margin-left: 70px;
+    }
+
+}
+
+@media only screen and (max-width:578px){
+
+    .box .boxcontent .view1 {
+        margin-left: 40px;
+    }
+
+}
+
+@media only screen and (max-width:547px){
+
+    .box .boxcontent .view1 {
+        margin-left: 30px;
+    }
+
+}
+
+@media only screen and (max-width:537px){
+
+    .sortby2{
+        display: none;
+    }
+
+    .sort{
+        display: none;
+    }
+    #sortBy{
+        display: none;
+    }
+
+    .box .boxcontent .view1 {
+        margin-left: 187px;
+    }
+}
+
+@media only screen and (max-width:492px){
+
+    .box .boxcontent .view1 {
+        margin-left: 142px;
+    }
+
+}
+
+@media only screen and (max-width:452px){
+
+    .box .boxcontent .view1 {
+        margin-left: 92px;
+    }
 }

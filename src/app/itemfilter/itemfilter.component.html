@@ -14,7 +14,7 @@
             </select>
         </div>
         <div class="sortby2">
-            <span class="View"> Sort by :</span>
+            <span class="sort"> Sort by :</span>
             <select id="sortBy" [ngModel]="stservice.sortItem" (ngModelChange)="sort($event) ">
                 <option selected disabled hidden> Sort By </option>
                 <option *ngFor="let sort of sortby" value="{{sort.value}}"> {{sort.sortby}} </option>
