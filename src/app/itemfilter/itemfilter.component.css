@@ -698,3 +698,11 @@ select {
         margin-left: 92px;
     }
 }
+
+@media only screen and (max-width:391px){
+
+    
+    .box .boxcontent .view1 {
+        margin-left: 70px;
+    }
+}

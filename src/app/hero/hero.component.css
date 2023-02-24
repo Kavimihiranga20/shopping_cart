@@ -18,14 +18,10 @@
     color: red;
 }
 
-@media only screen and (max-width:375px){
-    .hero{
-        height: 90px;
-    }
+@media only screen and (max-width:512px){
 
-    .hero h3{
-        width: 100%;
-        justify-content: center;
-        text-align: center;
+    .hero{
+        height: 80px;
+        margin-top: 5px;
     }
 }

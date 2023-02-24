@@ -10,8 +10,7 @@
       "cvalue":"gray color",
       "rvalue":"On sale",
       "tagvalue":"clothes",
-      "ratevalue":"2" 
-  
+      "ratevalue":"2"
     },
 
     {
@@ -24,7 +23,8 @@
       "cvalue":"black color",
       "rvalue":"On sale",
       "tagvalue":"fashion",
-      "ratevalue":"4" 
+      "ratevalue":"4" ,
+      "label":"-20%" 
 
     },
 
@@ -66,7 +66,8 @@
       "cvalue":"black color",
       "rvalue":"New",
       "tagvalue":"clothes",
-      "ratevalue":"2" 
+      "ratevalue":"2",
+      "label":"-20%"  
       
     },
 
@@ -91,7 +92,8 @@
       "svalue":"XL",
       "cvalue":"white color",
       "rvalue":"On stock",
-      "ratevalue":"6" 
+      "ratevalue":"6",
+      "label":"-20%"  
 
     },
 

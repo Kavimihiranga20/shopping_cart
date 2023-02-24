@@ -276,6 +276,15 @@
     }
 }
 
+@media only screen and (max-width:690px){
+   .par {
+    margin-top: 73px;
+    margin-right: 0px;
+    width: 280px
+
+}
+}
+
 @media only screen and (max-width:647px){
 
     .cll .cll2 .ic {
@@ -288,8 +297,15 @@
         width: 200px;
         letter-spacing: 1px;
     }
+}
+
+@media only screen and (max-width:630px){
+    .par {
+        margin-top: 84px;
+        margin-right: 0px;
+        width: 280px
     
-   
+    }
 }
 
 @media only screen and (max-width:595px){
@@ -308,4 +324,112 @@
         height: 20px;
     }
 }
+
+@media only screen and (max-width:573px){
+    
+    .par {
+        margin-top: 101px;
+    }
+}
+
+@media only screen and (max-width:524px){
+
+    .par {
+        margin-top: 126px;
+    }
+}
+
+@media only screen and (max-width:514px){
+
+    .cll .cll3 ul{
+        margin-left: -40px;
+    }
+}
+
+@media only screen and (max-width:512px){
+
+    .cll .cll2 .ic {
+        padding-right: 5px;
+    }
+    
+    .clltextbox {
+        font-size: 10px;
+        height: 22px;
+        width: 150px;
+    }
+
+    .cll2 button {
+        height: 20px;
+        font-size: 11px;
+        padding:0px 5px;
+    }
+}
+
+@media only screen and (max-width:485px){
+   
+    .par {
+        margin-top: 123px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:473px){
+
+    .fa-regular.fa-envelope{
+        font-size: 13px;
+    }
+
+    .cll .cll2 .ic {
+        padding-right: 4px;
+    }
+    
+    .clltextbox {
+        font-size: 9px;
+        height: 22px;
+        width: 140px;
+    }
+
+    .cll2 button {
+        height: 20px;
+        font-size: 10px;
+        padding:0px 2px;
+    }
+}
+
+@media only screen and (max-width:430px){
+
+    .cll .cll3 ul li{
+        padding: 3px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:404px){
+
+     .cl .cl2 h3{
+        font-size: 13px;
+    }
+
+    .cl .cl2 p{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:390px){
+
+    .cl .cl2 p{
+        width: 150px;
+    }
+
+    .cll .cll3 ul li{
+        padding: 2px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
 
