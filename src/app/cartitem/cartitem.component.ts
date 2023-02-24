@@ -30,8 +30,7 @@ export class CartitemComponent implements OnInit {
 
   sort(event: any) {
     switch (event.target.value) {
-      case "Low":
-        {
+      case "Low": {
           this.items = this.items.sort((low, high) => low.price - high.price);
           break;
         }
